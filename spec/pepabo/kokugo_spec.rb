@@ -38,4 +38,8 @@ RSpec.describe Pepabo::Kokugo do
   it "もっとおもしろくできる" do
     expect(Pepabo::Kokugo.new.convert('もっとおもしろくできる')).to eq('ボッボボボピボプペピプ')
   end
+
+  it "ちょっとおもしろくできる" do
+    expect(Pepabo::Kokugo.new.convert('ちょっとおもしろくできる')).to eq('ピョッボボボピボプペピプ')
+  end
 end
