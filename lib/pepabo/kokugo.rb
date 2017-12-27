@@ -1,6 +1,6 @@
 module Pepabo
   class Kokugo
-    VERSION = '0.1.0'
+    VERSION = '0.2.0'
 
     CONVERT_RULES = {
       %w(あ か さ た な は ま や ら わ) => 'パ',
