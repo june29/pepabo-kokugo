@@ -18,6 +18,7 @@ module Pepabo
       %w(               ぷ)             => 'プ',
       %w(               ぺ)             => 'ペ',
       %w(               ぽ)             => 'ボ',
+      %w(                           ん) => 'ン',
     }
 
     def convert(string)
