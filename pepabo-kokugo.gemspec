@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["june29"]
   spec.email         = ["june29.jp@gmail.com"]
 
-  spec.summary       = %q{xxx}
-  spec.description   = %q{xxx}
+  spec.summary       = %q{ペパボこくご変換ライブラリ}
+  spec.description   = %q{与えられた文字列をペパボ国語に変換します。}
   spec.homepage      = "https://github.com/june29/pepabo-kokugo"
   spec.license       = "MIT"
 
