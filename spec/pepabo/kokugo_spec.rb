@@ -34,4 +34,8 @@ RSpec.describe Pepabo::Kokugo do
   it "明るく、にこにこ、大きな声。" do
     expect(Pepabo::Kokugo.new.convert('明るく、にこにこ、大きな声。')).to eq('明ププ、ピボピボ、大ピパ声。')
   end
+
+  it "もっとおもしろくできる" do
+    expect(Pepabo::Kokugo.new.convert('もっとおもしろくできる')).to eq('ボッボボボピボプペピプ')
+  end
 end
