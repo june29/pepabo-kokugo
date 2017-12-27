@@ -8,7 +8,7 @@ RSpec.describe Pepabo::Kokugo do
   end
 
   it "こんにちは" do
-    expect(Pepabo::Kokugo.new.convert('こんにちは')).to eq('ボんピピパ')
+    expect(Pepabo::Kokugo.new.convert('こんにちは')).to eq('ボンピピパ')
   end
 
   it "しぶやくさくらがおか" do
