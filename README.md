@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'pepabo/kokugo'
+
+Pepabo::Kokugo.new.convert("みんなと仲良くすること") # => "ピんパボ仲良プププボボ"
+Pepabo::Kokugo.new.convert("ファンを増やすこと") # => "プァンボ増パプボボ"
+Pepabo::Kokugo.new.convert("アウトプットすること") # => "パプボプッボププボボ"
+```
 
 ## Development
 
